@@ -1,7 +1,22 @@
+/*Media para adaptación web a dispositivo móvil*/
 @media (max-width: 767px) {
 	[class*="col-"] {
 		max-width:100%;
 		flex: none;
 	}
+	.portada {
+		background-image: url(../img/portadaMovil.jpg);
+		width: 100%;
+		background-position: center;
+	}
+
+	.menu {
+		display: none;
+	}
+
+	.icon {
+		display: inline-block;
+	}
 }
+
 

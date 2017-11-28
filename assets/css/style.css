@@ -1,13 +1,11 @@
-/*
-*
-*/
-
+/*Estilos generales*/
 * {
 	color: #fff;
 	background-color: #000;
 	font-family: 'Glegoo', serif;
 }
 
+/*Anchors*/
 a {
 	text-decoration: none;
 }
@@ -16,33 +14,73 @@ a:hover {
 	color: #FFD105;
 }
 
+/*Alineando menú*/
 .alingTop {
 	margin-top: 2%;
 }
 
+.logo {
+	display: inline-block;x|
+}
+
+/*Imagen de portada*/
 .portada {
+	background-image: url(../img/portada.jpg);
 	width: 100%;
 	height: 20em;
 }
 
+/*Fotos segunda sección*/
 .grinchFotos {
 	width: 100%;
 }
 
+/*Botones*/
 .btn {
 	width: 10em;
 	background-color: #2F8A0E;
 	color: #000;
 	border: none;
 	border-radius: 5%;
+	padding: 0.5em;
+	margin: 1em 0em;
+	font-family: sans-serif;
 }
 
+/*Icono*/
+.fa {
+	color: #A8D832;
+	border: 0.5px solid #A8D832;
+	padding: 0.2em;
+	margin-left: 2.3em;
+	margin-top: 0.5em;
+	border-radius: 10%;
+}
+
+.icon {
+	display: none;
+	vertical-align: top;
+}
+
+/*Separación entre col tercera sección*/
+.border {
+	padding: 1em;
+	text-align: justify;
+}
+
+
+/*Pie de página*/
 footer {
-	padding: 3em;
+	padding: 2em;
+	background-color: #2F8A0E;
 }
 
 .footerP {
 	font-family: 'Lato', sans-serif;
 	text-align: center;
+	background-color: #2F8A0E;
+}
 
+footer p{
+	background-color: #2F8A0E;
 }
